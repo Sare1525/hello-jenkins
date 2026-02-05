@@ -1,5 +1,5 @@
 class Hello {
   public static void main(String[] args) {
-    System.out.println("Hello from Java on AppVeyor");
+    System.out.println("trigger built on commit");
   }
 }
