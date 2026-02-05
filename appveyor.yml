@@ -2,5 +2,5 @@ version: 1.0.{build}
 image: Visual Studio 2022
 
 build_script:
-  - echo "This is AppVeyor file" > demo.txt
-  - type demo.txt
+  - echo "Checking out GitHub repo..."
+  - dir   # Windows command to list files in workspace
